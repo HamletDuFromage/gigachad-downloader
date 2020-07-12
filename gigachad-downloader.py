@@ -18,6 +18,6 @@ c = 1
 t = len(images)
 for i in images:
     print("\nDownloading Gigachad " + str(c) + "/" + str(t))
-    wget.download(i["href"], "Gigachad/gigachad" + str(c))
+    wget.download(i["href"], "Gigachad/gigachad" + str(c) + ".jpg")
     c += 1
 
